@@ -1000,10 +1000,10 @@
 			"revisionTime": "2017-08-10T01:39:55Z"
 		},
 		{
-			"checksumSHA1": "YV/pP+zT70CYbDN79bBO7NypLXk=",
+			"checksumSHA1": "ouLYuajCRKYxNNhPgu11YGnbahI=",
 			"path": "google.golang.org/api/compute/v1",
-			"revision": "e962708912ea1b4d4321358ccdae614a77eb883a",
-			"revisionTime": "2017-09-27T00:04:17Z"
+			"revision": "52fedcc3d56e51c5f1a571d48092238ab2746c73",
+			"revisionTime": "2017-10-25T00:03:39Z"
 		},
 		{
 			"checksumSHA1": "acuDPZa9rxUvFhdijdVfG4jy+rw=",
