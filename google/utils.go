@@ -469,7 +469,6 @@ func flattenAccessConfigs(accessConfigs []*compute.AccessConfig) ([]map[string]i
 	natIP := ""
 	for i, ac := range accessConfigs {
 		flattened[i] = map[string]interface{}{
-			"nat_ip":          ac.NatIP,
 			"assigned_nat_ip": ac.NatIP,
 		}
 		if natIP == "" {

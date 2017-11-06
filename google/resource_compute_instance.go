@@ -327,13 +327,11 @@ func resourceComputeInstance() *schema.Resource {
 									"nat_ip": &schema.Schema{
 										Type:     schema.TypeString,
 										Optional: true,
-										Computed: true,
 									},
 
 									"assigned_nat_ip": &schema.Schema{
-										Type:       schema.TypeString,
-										Computed:   true,
-										Deprecated: "Please use nat_ip",
+										Type:     schema.TypeString,
+										Computed: true,
 									},
 								},
 							},
